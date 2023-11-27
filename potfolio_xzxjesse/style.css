@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300;600&display=swap');
+
+:root {
+    --cor-primaria: #0D0D0D;
+    --cor-secundaria: #A64E55;
+    --cor-terciaria: #A67272;
+    --cor-hover: #8C594D;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--cor-terciaria);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+section,
+section#professional-experience,
+section#extracurricular,
+section#contact-info {
+    margin: 20px;
+}
+
+section h2,
+section#professional-experience h2,
+section#extracurricular h2,
+section#contact-info h2 {
+    color: var(--cor-terciaria);
+}
+
+section ul,
+section#professional-experience ul,
+section#extracurricular ul,
+section#contact-info ul {
+    list-style-type: none;
+}
+
+section li,
+section#professional-experience li,
+section#extracurricular li,
+section#contact-info li {
+    margin-bottom: 5px;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.skills strong {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.skills img {
+    margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin-top: 10px;
+    }
+}
