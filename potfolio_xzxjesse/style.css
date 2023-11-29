@@ -1,73 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300;600&display=swap');
-
 :root {
-    --cor-primaria: #0D0D0D;
-    --cor-secundaria: #EDD1D3;
-    --cor-terciaria: #EDD1D3;
-    --cor-hover: #EDD1D3;
+    --primary-font: 'Krona One', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+    --primary-color: #0D0D0D;
+    --secondary-color: #d2b8ba;
+    --tertiary-color: #c26269;
+    --hover-color: #9c6c70;
+}
 
-    --fonte-primaria: 'Krona One', sans-serif;
-    --fonte-secundaria: 'Montserrat', sans-serif;
+@font-face {
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: var(--fonte-secundaria);
-    color: var(--cor-secundaria);
-    background-color: var(--cor-primaria);
+    font-family: var(--secondary-font);
+    font-size: 23px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    line-height: 1.6;
+}
+
+header, nav, section, section h2, section ul, section li {
+    margin: 20px;
 }
 
 header {
-    background-color: var(--cor-primaria);
-    color: var(--cor-terciaria);
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
     text-align: center;
     padding: 20px;
 }
 
 nav {
-    background-color: var(--cor-terciaria);
-    padding: 10px;
+    background-color: var(--tertiary-color);
+    height: 100px;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    background-color: var(--tertiary-color); /* Corrigir para a cor certa */
+    height: 100%;
 }
 
-nav a {
+nav a, #contact a {
     text-decoration: none;
-    color: var(--cor-primaria);
-    font-weight: 600;
+    color: var(--primary-color);
+    font-weight: 400;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
-section,
-section#professional-experience,
-section#extracurricular,
-section#contact-info {
+nav a:hover, #contact a:hover {
+    color: var(--hover-color);
+}
+
+section, section h2, section ul, section li {
     margin: 20px;
-}
-
-section h2,
-section#professional-experience h2,
-section#extracurricular h2,
-section#contact-info h2 {
-    color: var(--cor-terciaria);
-}
-
-section ul,
-section#professional-experience ul,
-section#extracurricular ul,
-section#contact-info ul {
-    list-style-type: none;
-}
-
-section li,
-section#professional-experience li,
-section#extracurricular li,
-section#contact-info li {
-    margin-bottom: 5px;
 }
 
 .skills li {
@@ -80,13 +84,16 @@ section#contact-info li {
 }
 
 .skills img {
-    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
 
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
         align-items: center;
+        height: auto;
     }
 
     nav a {
