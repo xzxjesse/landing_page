@@ -11,11 +11,15 @@
 </head>
 
 <body>
+
     <header>
         <h1>Jéssica Eveline Saraiva Araújo</h1>
-        <p>
-            <strong>GitHub</strong> <ahref="https://github.com/xzxjesse"></a><strong>LinkedIn</strong> <a href="https://www.linkedin.com/in/xzxjesse"></a><strong>E-mail</strong> <a href="mailto:jessicaeveline.sa@gmail.com"></a><strong>WhatsApp</strong> <a href="https://wa.me/5561992846515"></a>
-        </p>
+        <p id="contato">
+            <strong><a href="https://github.com/xzxjesse" target="_blank">GitHub</a></strong>
+            <strong><a href="https://www.linkedin.com/in/xzxjesse" target="_blank">LinkedIn</a></strong>
+            <strong><a href="mailto:jessicaeveline.sa@gmail.com">E-mail</a></strong>
+            <strong><a href="https://wa.me/5561992846515" target="_blank">WhatsApp</a></strong>
+        </p>                  
     </header>
 
     <nav>
@@ -24,63 +28,86 @@
             <li><a href="professional_experience.html">Experiências Profissionais</a></li>
             <li><a href="extracurricular.html">Experiências Extracurriculares</a></li>
         </ul>
-    </nav>
+    </nav>    
 
-    <section id="education">
-        <h2>Formação</h2>
-        <ul>
-            <li>UnB - Universidade de Brasília</li>
-            <li>Graduação, Engenharia de Software</li>
-            <li>2022 - (Previsão de término em 2027)</li>
-        </ul>
-    </section>
+    <div class="content-container">
+        <section id="education-languages" class="content-block">
+            <h2>Formação</h2>
+            <ul>
+                <li><strong>Universidade:</strong> UnB - Universidade de Brasília</li>
+                <li><strong>Curso:</strong> Graduação em Engenharia de Software</li>
+                <li><strong>Período:</strong> 2022 - (Previsão de término em 2027)</li>
+            </ul>
 
-    <section id="languages">
-        <h2>Idiomas</h2>
-        <ul>
-            <li>Inglês - Intermediário</li>
-            <li>Espanhol - Avançado</li>
-        </ul>
-    </section>
+            <h2>Idiomas</h2>
+            <ul>
+                <li><strong>Inglês:</strong> Intermediário</li>
+                <li><strong>Espanhol:</strong> Avançado</li>
+            </ul>
+        </section>
 
-    <section id="skills">
-        <h2>Ferramentas e Linguagens</h2>
-    
-        <div class="tool-category">
-            <h3>Linguagens de Programação:</h3>
-            <img src="https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white" alt="C">
-            <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-            <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-        </div>
-    
-        <div class="tool-category">
-            <h3>Desenvolvimento Web:</h3>
-            <img src="https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML">
-            <img src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS">
-        </div>
-    
-        <div class="tool-category">
-            <h3>Design:</h3>
-            <img src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma">
-            <img src="https://img.shields.io/badge/-Canva-00C4CC?style=flat-square&logo=canva&logoColor=white" alt="Canva">
-        </div>
-    
-        <div class="tool-category">
-            <h3>Visualização de Dados:</h3>
-            <img src="https://img.shields.io/badge/-PowerBI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="PowerBI">
-        </div>
-    
-        <div class="tool-category">
-            <h3>Bancos de Dados:</h3>
-            <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
-        </div>
-    
-        <div class="tool-category">
-            <h3>Computação em Nuvem:</h3>
-            <img src="https://img.shields.io/badge/-Microsoft%20Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" alt="Microsoft Azure">
-        </div>
-    </section>
-    
+        <section id="skills" class="content-block">
+            <h2>Ferramentas e Linguagens</h2>
+
+            <ul class="tool-category" id="programming-languages">
+                <li>
+                    <h3>Linguagens de Programação:</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="tool-category" id="web-development">
+                <li>
+                    <h3>Desenvolvimento Web:</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="tool-category" id="design-tools">
+                <li>
+                    <h3>Design:</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Canva</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="tool-category" id="data-visualization">
+                <li>
+                    <h3>Visualização de Dados:</h3>
+                    <ul>
+                        <li>PowerBI</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="tool-category" id="databases">
+                <li>
+                    <h3>Bancos de Dados:</h3>
+                    <ul>
+                        <li>SQL</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="tool-category" id="cloud-computing">
+                <li>
+                    <h3>Computação em Nuvem:</h3>
+                    <ul>
+                        <li>Microsoft Azure</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </div>
 
 </body>
 

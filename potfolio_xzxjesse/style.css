@@ -2,9 +2,9 @@
     --primary-font: 'Krona One', sans-serif;
     --secondary-font: 'Montserrat', sans-serif;
     --primary-color: #0D0D0D;
-    --secondary-color: #d2b8ba;
-    --tertiary-color: #c26269;
-    --hover-color: #9c6c70;
+    --secondary-color: #CCCCCC;
+    --tertiary-color: #626AAC;
+    --hover-color: #191970;
 }
 
 @font-face {
@@ -31,7 +31,7 @@ body {
     line-height: 1.6;
 }
 
-header, nav, section, section h2, section ul, section li {
+header, section, section h2, section ul, section li {
     margin: 20px;
 }
 
@@ -43,50 +43,86 @@ header {
 }
 
 nav {
-    background-color: var(--tertiary-color);
-    height: 100px;
-    margin: 0;
-    padding: 0;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: space-around;
-    background-color: var(--tertiary-color); /* Corrigir para a cor certa */
-    height: 100%;
+    justify-content: center;
 }
 
-nav a, #contact a {
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
     text-decoration: none;
-    color: var(--primary-color);
-    font-weight: 400;
-    height: 100%;
-    display: flex;
-    align-items: center;
+    color: var(--tertiary-color);
+    transition: color 0.3s ease;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 70px;
 }
 
-nav a:hover, #contact a:hover {
+nav a:hover {
     color: var(--hover-color);
 }
+
+
+#contato {
+    background-color: var(--secondary-color);
+    padding: 15px;
+    text-align: center;
+}
+
+#contato a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+    transition: color 0.3s ease;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 30px;
+}
+
+#contato a:hover {
+    color: var(--hover-color);
+}
+
 
 section, section h2, section ul, section li {
     margin: 20px;
 }
 
-.skills li {
-    margin-bottom: 10px;
+#skills {
+    margin: 20px 0;
 }
 
-.skills strong {
-    font-weight: 600;
-    margin-right: 5px;
+.tool-category {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.skills img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+.tool-category h3 {
+    color: var(--secondary-color);
+    font-size: 1.2em;
+}
+
+.tool-category ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tool-category li {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: var(--tertiary-color);
 }
 
 @media (max-width: 600px) {
