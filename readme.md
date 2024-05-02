@@ -1,15 +1,13 @@
 # Landing Page
 
-É uma página da web projetada especificamente para receber visitantes após clicarem em um link em um anúncio, e-mail de marketing, post em mídia social ou em outra fonte de tráfego online. Ela desempenha um papel crucial em campanhas de marketing digital, focando na conversão de visitantes em leads, clientes ou assinantes. Nesse repositório as landing pages foram criadas como projetos pessoais para estudo e potfólio
+É uma página da web projetada especificamente para receber visitantes após clicarem em um link em um anúncio, e-mail de marketing, post em mídia social ou em outra fonte de tráfego online. Ela desempenha um papel crucial em campanhas de marketing digital, focando na conversão de visitantes em leads, clientes ou assinantes. Nesse repositório as landing pages foram criadas como projetos pessoais para estudo e potfólio.
 
 ## Projetos
-[@xzxjesse](/Landing%20Page%20-%20xzxjesse/)
+[@xzxjesse](https://github.com/xzxjesse/landing_page/tree/main/%40xzxjesse)
 
-[Jesse](/Landing%20Page%20-%20Jesse/)
+[Jesse](https://github.com/xzxjesse/landing_page/tree/main/Jesse)
 
-[Jéssica](/Landing%20Page%20-%20Jéssica/)
-
-[Coffee Cup](/Landing%20Page%20-%20Coffee%20Cup/)
+[Coffee Cup]()
 
 ## Ferramentas usadas
 
