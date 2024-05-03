@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 a {
     text-decoration: none;
     color: #F4EEE0;
@@ -7,22 +8,28 @@ a {
 body {
     background: linear-gradient(to bottom, #4F4557, #1E1E1E);
     color: #F4EEE0;
-    font-family: "Inter", sans-serif; 
+    font-family: "Inter", sans-serif;
 }
 
-nav ul {
+nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
-}  
+}
 
-nav ul li {
+nav a {
     font-size: 30px;
     color: #F4EEE0;
     padding: 10px 15px;
 }
 
-nav ul li:hover {
+nav a:hover {
     font-weight: bold;
+}
+
+.rodape {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
