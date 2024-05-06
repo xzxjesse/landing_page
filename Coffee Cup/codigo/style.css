@@ -9,8 +9,14 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 30px;
+    margin: 0px;
+}
+
 p{
     font-size: 30px;
+    margin: 0px;
 }
 
 body {
@@ -26,6 +32,8 @@ nav {
     position: fixed;
     background-color: #4F4557;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 nav a {
@@ -86,8 +94,47 @@ nav a:hover {
     font-size: 20px;
 }
 
+.cardapio{
+    background-color: #F4EEE0;
+    color: #393646;
+    line-height: 100px;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+.cardapio__titulo{
+    background-color: #F4EEE0;
+    line-height: 80px;
+    width: 1200px;
+    border-radius: 25px;
+    color: #393646;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.cardapio_1, .cardapio_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.ver_mais{
+    font-size: 20px;
+    font-style: italic;
+}
+
 .rodape {
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
 }
+
