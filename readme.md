@@ -7,7 +7,7 @@
 
 [Jesse](https://github.com/xzxjesse/landing_page/tree/main/Jesse)
 
-[Coffee Cup]()
+[Coffee Cup](https://github.com/xzxjesse/landing_page/tree/main/Coffee%20Cup)
 
 ## Ferramentas usadas
 
